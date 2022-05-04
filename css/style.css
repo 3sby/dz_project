@@ -1,0 +1,320 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    
+    section.promo {
+        height: 800px;
+        background: url(../img/main_bg.jpg) center center/cover no-repeat;
+        padding: 38px 0 61px 0;
+    }
+    
+    h1 {
+        margin-top: 53px;
+    }
+    
+    h2.title {
+        margin-top: 20.5px;
+    }
+    
+    .header_logo {
+        text-align: center;
+    }
+    
+    .logo_text {
+        text-transform: uppercase;
+        color: #FFF;
+        margin-top: 9.5px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .title {
+        font-weight: 900;
+        font-size: 41px;
+        line-height: 41px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F9BF3B;
+    }
+    
+    .simple .title_big {
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 80px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        margin-top: 20.5px;
+    }
+    
+    .promo_text {
+        color: #FFF;
+        text-align: center;
+        font-weight: 300;
+        font-size: 21px;
+        margin-top: 22.5px;
+    }
+    
+    .promo_text span {
+        font-weight: 700;
+        font-size: 21px;
+        text-align: center;
+        color: #F9BF3B;
+    }
+    
+    button {
+        width: 313px;
+        height: 72px;
+        background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+        display: block;
+        margin: 0 auto;
+        margin-top: 51px;
+        border: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .more {
+        font-weight: 100;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        margin-top: 70.5px;
+    }
+    
+    .arrow_icon {
+        text-align: center;
+        margin-top: 4.5px;
+    }
+    /*Второй блок*/
+    
+    section.waiting {
+        padding: 88px 0 75px 0;
+        background-color: #EFEFEF;
+    }
+    
+    .waiting_header {
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .waiting_divider {
+        width: 217px;
+        height: 4px;
+        background-color: #F9BF3B;
+        margin: 20px auto;
+    }
+    
+    .waiting_subheader {
+        font-weight: 400;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 19.5px;
+    }
+    
+    .waiting_wrapper {
+        display: flex;
+        gap: 48px;
+    }
+    
+    .waiting_item {
+        width: 342px;
+        margin-top: 45.5px;
+        text-align: center;
+    }
+    
+    .waiting_descr {
+        font-weight: 300;
+        font-size: 15px;
+        color: #4A4A4A;
+        margin-top: 26px;
+    }
+    /*Третий блок*/
+    
+    .optimization {
+        padding: 115px 0;
+        position: relative;
+    }
+    
+    .optimization_img {
+        margin-right: 511px;
+        margin-left: -240px;
+        position: absolute;
+        z-index: -1;
+        top: 48px;
+    }
+    
+    .optimization_header {
+        margin-left: 389px;
+        font-weight: 900;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #299CBD;
+    }
+    
+    .optimization_text {
+        margin-left: 389px;
+        font-weight: 300;
+        font-size: 17px;
+        color: #4A4A4A;
+        margin-top: 25px;
+    }
+    
+    .optimization_text span {
+        font-weight: 700;
+    }
+    /*Четвертый блок*/
+    
+    .finish {
+        padding: 86px 0 68.5px 0;
+        background: url(../img/second_bg.jpg) center center/cover no-repeat;
+    }
+    
+    .finish_header {
+        font-weight: 400;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #EFEFEF;
+        text-align: center;
+    }
+    
+    .finish_divider {
+        width: 217px;
+        height: 4px;
+        background-color: #F9BF3B;
+        margin: 18px auto;
+    }
+    
+    .finish_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .finish_item {
+        margin-top: 39px;
+        width: 234px;
+    }
+    
+    .finish_circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 118px;
+        height: 118px;
+        background: #B4E2FF;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    
+    .finish_desc {
+        margin-top: 24.5px;
+        font-weight: 300;
+        font-size: 17px;
+        color: #EFEFEF;
+        text-align: center;
+    }
+    /*Пятый блок*/
+    
+    .gift {
+        padding: 85px 0 88px;
+        background-color: #EFEFEF;
+        min-height: 631px;
+    }
+    
+    .gift_img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .gift_text {
+        margin-top: 45px;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        color: #252525;
+    }
+    
+    .gift_button {
+        margin-top: 51px;
+    }
+    /*Шестой блок*/
+    
+    .webinar {
+        padding: 89px 0 52.5px;
+    }
+    
+    .webinar_icon {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .webinar_header {
+        margin-top: 36px;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #252525;
+    }
+    
+    .webinar_date {
+        margin-top: 30px;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #299CBD;
+    }
+    
+    .webinar_text {
+        margin-top: 24.5px;
+        font-weight: 400;
+        font-size: 23px;
+        text-align: center;
+        color: #4A4A4A;
+    }
+    /*Футер*/
+    
+    footer {
+        padding: 57px 0 69px;
+        background-color: #1A1A1A;
+    }
+    
+    .footer_links,
+    .footer_support,
+    .footer_conf {
+        text-align: center;
+        color: #888888;
+    }
+    
+    .footer_call {
+        text-align: center;
+        color: #888888;
+    }
+    
+    .footer_number {
+        text-align: center;
+        color: #888888;
+        text-decoration: none;
+    }
